@@ -10,14 +10,14 @@ const { runInstall, DEFAULT_TIMEOUT_MS } = require("./runInstall");
 const { collectFacts } = require("./collectFacts");
 const { roast } = require("./roast");
 
-const HELP = `骂了吗 (malema) — 把你刚 vibe 出来的产品丢进去，被全网最挑剔的真实用户骂醒。
+const HELP = `骂了吗 (WouldYouShip) — 把你刚 vibe 出来的产品丢进去，被全网最挑剔的真实用户骂醒。
 
 用法:
-  npx malema [目录]              # 默认当前目录；跑前会警告并等你确认
-  npx malema --yes               # 跳过确认（CI / 熟练用户）
-  npx malema --no-run            # 静态模式：只读 README/代码结构，绝不执行任何脚本
-  npx malema --timeout <秒>      # 安装硬超时（默认 300s）
-  npx malema --help
+  npx wouldyouship [目录]              # 默认当前目录；跑前会警告并等你确认
+  npx wouldyouship --yes               # 跳过确认（CI / 熟练用户）
+  npx wouldyouship --no-run            # 静态模式：只读 README/代码结构，绝不执行任何脚本
+  npx wouldyouship --timeout <秒>      # 安装硬超时（默认 300s）
+  npx wouldyouship --help
 
 环境:
   DEEPSEEK_API_KEY   配了才调 LLM 出毒评；没配走离线 mock（也能用，但骂得不够花）

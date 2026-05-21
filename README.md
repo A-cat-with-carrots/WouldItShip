@@ -1,19 +1,19 @@
-# 骂了吗 (malema)
+# 骂了吗 (WouldYouShip)
 
 > 把你刚 vibe 出来的产品丢进去，被全网最挑剔的真实用户骂醒。
 
 vibecoding 让做产品的门槛塌了，但「做出来」和「有人能用」之间的鸿沟没变小——只是被自己人的乐观掩盖了。你测一遍觉得很顺，因为你知道每个按钮该点哪、哪些是占位。陌生用户没有这套内部知识，第一眼只看到困惑、死链、跑不起来的安装步骤，然后默默离开。
 
-`malema` 在你的 repo 目录里，像一个最挑剔的陌生用户那样真的去装、去跑你的产品。**如果它连装都装不起来——那本身就是最狠、最不可辩驳的骂。**
+`wouldyouship` 在你的 repo 目录里，像一个最挑剔的陌生用户那样真的去装、去跑你的产品。**如果它连装都装不起来——那本身就是最狠、最不可辩驳的骂。**
 
 ## 用法
 
 ```bash
-npx malema                 # 在当前 repo 跑；执行前会警告并等你确认
-npx malema ./some-repo     # 指定目录
-npx malema --no-run        # 静态模式：只读 README/结构，绝不执行任何脚本
-npx malema --yes           # 跳过确认（CI / 熟练用户）
-npx malema --timeout 120   # 安装硬超时秒数（默认 300）
+npx wouldyouship                 # 在当前 repo 跑；执行前会警告并等你确认
+npx wouldyouship ./some-repo     # 指定目录
+npx wouldyouship --no-run        # 静态模式：只读 README/结构，绝不执行任何脚本
+npx wouldyouship --yes           # 跳过确认（CI / 熟练用户）
+npx wouldyouship --timeout 120   # 安装硬超时秒数（默认 300）
 ```
 
 ## 配置
