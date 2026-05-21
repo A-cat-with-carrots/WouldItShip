@@ -1,0 +1,30 @@
+{
+  "name": "malema",
+  "version": "0.1.0",
+  "description": "骂了吗 — 把你刚 vibe 出来的产品丢进去，被全网最挑剔的真实用户骂醒。开源本地 CLI。",
+  "bin": {
+    "malema": "bin/malema.js"
+  },
+  "main": "src/cli.js",
+  "type": "commonjs",
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node bin/malema.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "vibecoding",
+    "roast",
+    "cli",
+    "code-review",
+    "ai"
+  ],
+  "license": "MIT"
+}
