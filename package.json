@@ -26,5 +26,13 @@
     "code-review",
     "ai"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-cat-with-carrots/WouldItShip.git"
+  },
+  "homepage": "https://github.com/A-cat-with-carrots/WouldItShip#readme",
+  "bugs": {
+    "url": "https://github.com/A-cat-with-carrots/WouldItShip/issues"
+  },
   "license": "MIT"
 }
