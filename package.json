@@ -1,9 +1,9 @@
 {
-  "name": "wouldyouship",
+  "name": "woulditship",
   "version": "0.1.0",
-  "description": "骂了吗 (WouldYouShip) — 把你刚 vibe 出来的产品丢进去，被全网最挑剔的真实用户骂醒。开源本地 CLI。",
+  "description": "骂了吗 (WouldItShip) — 把你刚 vibe 出来的产品丢进去，被全网最挑剔的真实用户骂醒。开源本地 CLI。",
   "bin": {
-    "wouldyouship": "bin/wouldyouship.js"
+    "woulditship": "bin/woulditship.js"
   },
   "main": "src/cli.js",
   "type": "commonjs",
@@ -16,7 +16,7 @@
     "node": ">=22"
   },
   "scripts": {
-    "start": "node bin/wouldyouship.js",
+    "start": "node bin/woulditship.js",
     "test": "node --test"
   },
   "keywords": [
