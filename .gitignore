@@ -2,3 +2,7 @@ node_modules/
 *.log
 .env
 .DS_Store
+
+# 神仙鱼 web 介绍站 — 归 monorepo + systemd 部署，不属于开源 CLI 仓库
+server.js
+public/
