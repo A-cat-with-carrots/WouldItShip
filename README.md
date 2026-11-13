@@ -69,4 +69,4 @@ Node (`package.json`) · Python (`requirements.txt`/`pyproject.toml`) · Go (`go
 
 v1：装 + 失败即 roast。`run` + 真实体验式吐槽（启动服务、点页面）是 v2。
 
-MIT · 神仙鱼 / HRDAI
+MIT
